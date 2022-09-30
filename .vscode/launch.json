@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ZttappApp<zttapp>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "org.zt.ZttappApp",
+            "projectName": "zttapp",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}

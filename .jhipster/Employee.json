@@ -1,0 +1,24 @@
+{
+  "changelogDate": "20220930062845",
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "dob",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "nationality",
+      "fieldType": "String"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Employee",
+  "pagination": "infinite-scroll",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,27 @@
+{
+  "zttappApp": {
+    "lostItem": {
+      "home": {
+        "title": "Lost Items",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Lost Item",
+        "createOrEditLabel": "Create or edit a Lost Item",
+        "notFound": "No Lost Items found"
+      },
+      "created": "A new Lost Item is created with identifier {{ param }}",
+      "updated": "A Lost Item is updated with identifier {{ param }}",
+      "deleted": "A Lost Item is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Lost Item {{ id }}?"
+      },
+      "detail": {
+        "title": "Lost Item"
+      },
+      "id": "ID",
+      "dateLost": "Date Lost",
+      "description": "Description",
+      "province": "Province",
+      "itemNumber": "Item Number"
+    }
+  }
+}

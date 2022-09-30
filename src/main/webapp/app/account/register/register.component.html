@@ -1,7 +1,9 @@
 <div>
   <div class="d-flex justify-content-center">
-    <div class="col-md-8">
+    <div class="col-md-6">
       <h1 jhiTranslate="register.title" data-cy="registerTitle">Registration</h1>
+
+      <h5>You will be assigned the CLIENT role by default</h5>
 
       <div class="alert alert-success" *ngIf="success" jhiTranslate="register.messages.success">
         <strong>Registration saved!</strong> Please check your email for confirmation.
@@ -26,7 +28,7 @@
   </div>
 
   <div class="d-flex justify-content-center">
-    <div class="col-md-8">
+    <div class="col-md-6">
       <form name="form" role="form" (ngSubmit)="register()" [formGroup]="registerForm" *ngIf="!success">
         <div class="mb-3">
           <label class="form-label" for="login" jhiTranslate="global.form.username.label">Username</label>
