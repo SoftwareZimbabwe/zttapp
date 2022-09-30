@@ -1,6 +1,30 @@
 # zttapp
 
-This application was generated using JHipster 7.9.3, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.9.3](https://www.jhipster.tech/documentation-archive/v7.9.3).
+Question 2
+Duration : 1 hour 45 minutes
+Lost and Found system
+Craft a lost and found system as follows:
+Requirements
+
+1. A user can create their account with the following fields:
+   username, first name, last name, role and password
+2. Role can be client or admin.
+3. A client can log in and create a record of the items lost. This record comprises the Date,
+   Description of the lost items, Province where the items were lost, and a Random number from
+   https://www.randomnumberapi.com/.
+4. All records for the lost items should be visible to the public.
+5. An admin person can delete the record if it is a duplicate or is not adhering to their content
+   policy.
+6. An admin person can update the record with the status "found" if the items are found.
+7. An admin person can update the record with the status "collected" if the items are collected by
+   the person who lost them.
+   Apps
+   Create a web app, and the backend should be as follows.
+8. The Web app should be developed using Angular 12 or later.
+9. The Backend should be developed using Java, Spring Boot, Maven and H2 Database and other
+   technologies.
+10. Unit tests and integration tests for the backend.
+11. Create public repositories in your GitHub for your web app and backend. Send your public repo
 
 ## Project Structure
 
