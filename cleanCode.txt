@@ -110,13 +110,16 @@ public class Mine{
  if (a == 1) {
  return b;
  }
- return b;
  }
 }
 //
 Code 13
 public class Myclass {
- public final int THRESHOLD = 3;
+ private final int THRESHOLD = 3;
+ 
+   Myclass(int field) {
+    this.field = field;
+  }
 }
 
 //Code 14
