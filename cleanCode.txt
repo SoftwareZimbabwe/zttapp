@@ -1,0 +1,197 @@
+//Code 1
+public class MyTest{
+ public long computeDurationInMilliseconds() {
+ long duration = (((hours * 60) + minutes) * 60 + seconds ) * 1000 ;
+ return duration;
+ }
+ public void doSomething() throws RuntimeException {
+ RuntimeException myException = new RuntimeException();
+ throw myException;
+ }
+}
+
+//Code 2
+public class MyClass {
+ private int foo = 42;
+ public int compute(int a) {
+ return a * foo;
+ }
+}
+
+//Code 3
+class StringUtils {
+ public static String concatenate(String s1, String s2) {
+ return s1 + s2;
+ }
+}
+
+//Code 4
+package my.company;
+import java.lang.String;
+import my.company2.SomeType;
+class ExampleClass {
+ public String someString;
+ public SomeType something;
+}
+
+//Code 5
+public class Example2Class{
+ public void foo(String bar) throws RuntimeException {
+ throw new RuntimeException("My Message");
+ }
+}
+
+//Code 6
+public class Foo {
+ public Collection<User> listUsers() {
+	 try {
+		File userList = new File("/home/mylogin/Dev/users.txt");
+		Collection<User> users = parse(userList);
+		return users;
+	 }
+	 catch {
+		System.out.println("Error occured");
+	 }
+
+ }
+}
+
+//Code 7
+public class MyFoo{
+ static public void main(String[] args) {
+ System.out.print("It works");
+ }
+}
+
+//Code 8
+public class MyFoorest{
+ public void run() {
+ System.out.println(string+" prepared");
+ System.out.println(string+" executed");
+ System.out.println(string+" released");
+ }
+
+}
+
+//Code 9
+class ParentClass {
+ public boolean doSomething(){
+ System.out.println("Parent doing something");
+ }
+}
+class FirstChildClass extends ParentClass {
+ @Override
+ public boolean doSomething(){
+ System.out.println("First born doing something");
+ }
+}
+
+//Code 10
+class MikeClass{
+ void doIt(){
+ System.out.println("I am doing it");
+ }
+}
+
+//Code 11
+public class Address {
+
+}
+public class Person implements Serializable {
+ private static final long serialVersionUID = 1905122041950251207L;
+ private String name;
+ private Address address;
+}
+
+//Code 12
+public class Mine{
+ int foo(int a) {
+ int b = 12;
+ if (a == 1) {
+ return b;
+ }
+ return b;
+ }
+}
+//
+Code 13
+public class Myclass {
+ public final int THRESHOLD = 3;
+}
+
+//Code 14
+class A {
+ void process(List<A> list) {
+ list.stream()
+ .filter(a -> a instanceof B)
+ .map(a -> (B) a)
+ .map(b -> b.<String>getObject())
+ .forEach(b -> { System.out.println(b); });
+ }
+}
+class B extends A {
+ <T> T getObject() {
+ return null;
+ }
+}
+
+//Code 15
+interface Status {
+ int OPEN = 1;
+ int CLOSED = 2;
+}
+
+//Code 16
+public class Baidu{
+ List<String> strings = new ArrayList<String>();
+ Map<String,List<Integer>> map = new HashMap<String,List<Integer>>();
+
+}
+
+//Code 17
+public class MyBaidu{
+public static void main(String[] args)
+ Boolean b = getBoolean();
+ if (b) {
+ foo();
+ } else {
+ bar();
+ }
+}
+
+//Code 18
+public class FirstBaidu{
+ public void checkFile(File file){
+ if (file != null) {
+ if (file.isFile() || file.isDirectory()) {
+ System.out.println("File is okay");
+ }
+ }
+ }
+}
+
+//Code 19
+public class HelloWorld{
+ public void myMethod(){
+ String message = new Random().nextBoolean()?"hello world": "My Cat";
+ message+=" done";
+ System.out.println(message.toString());
+ }
+
+}
+
+//Code 20
+public class MyRandom{
+ public static void main(String[] args){
+ if (booleanMethod() == true) { /* ... */ }
+ if (booleanMethod() == false) { /* ... */ }
+ if (booleanMethod() || false) { /* ... */ }
+ doSomething(!false);
+ doSomething(booleanMethod() == true);
+ booleanVariable = booleanMethod() ? true : false;
+ booleanVariable = booleanMethod() ? true : exp;
+ booleanVariable = booleanMethod() ? false : exp;
+ booleanVariable = booleanMethod() ? exp : true;
+ booleanVariable = booleanMethod() ? exp : false;
+ }
+}
