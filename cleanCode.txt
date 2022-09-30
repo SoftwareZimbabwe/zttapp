@@ -36,8 +36,13 @@ class ExampleClass {
 
 //Code 5
 public class Example2Class{
- public void foo(String bar) throws RuntimeException {
+ public void foo(String bar) {
+ try {
  throw new RuntimeException("My Message");
+  } catch (Throwable t) {
+    log.error(t);
+    System.exit(1);
+  }
  }
 }
 
